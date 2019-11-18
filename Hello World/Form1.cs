@@ -24,7 +24,7 @@ namespace Hello_World
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("You have failed the vibe check " + txtBxName.Text);
+            MessageBox.Show("You have failed the vibe check " + txtBxName.Text + txtBxName2.Text);
         }
     }
 }
